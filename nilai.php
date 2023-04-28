@@ -1,0 +1,18 @@
+<?php
+    //nilai yang akan dihitung kategorinya
+    $nilai = 85; 
+
+    //jika nilai di antara 90 dan 100, kategori A
+    if($nilai >= 90 && $nilai <= 100) { 
+        echo "Nilai Anda: " . $nilai . ", Anda termasuk kategori A";
+    //jika nilai di antara 80 dan 89, kategori B
+    } elseif($nilai >= 80 && $nilai < 90) { 
+        echo "Nilai Anda: " . $nilai . ", Anda termasuk kategori B";
+    //jika nilai di antara 70 dan 79, kategori C
+    } elseif($nilai >= 70 && $nilai < 80) { 
+        echo "Nilai Anda: " . $nilai . ", Anda termasuk kategori C";
+    //jika nilai kurang dari 70, kategori D
+    } else { 
+        echo "Nilai Anda: " . $nilai . ", Anda termasuk kategori D";
+    }
+?>

@@ -12,7 +12,10 @@
     } elseif($nilai >= 70 && $nilai < 80) { 
         echo "Nilai Anda: " . $nilai . ", Anda termasuk kategori C";
     //jika nilai kurang dari 70, kategori D
-    } else { 
+    } elseif($nilai >=0 && $nilai < 70) { 
         echo "Nilai Anda: " . $nilai . ", Anda termasuk kategori D";
+    }else {
+        echo "Nilai Anda tidak termasuk kategori";
     }
+     
 ?>

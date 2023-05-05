@@ -1,0 +1,37 @@
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		
+		table {
+			border-collapse: collapse;
+			margin: 0 auto;
+			border: 1px solid gray;
+			width: 60%;	
+		}
+
+		th {
+			background-color: #e1dfdd;
+			color: black;
+			padding: 8px;
+			text-align: left;
+			border: 1px solid gray;
+		}
+
+		td {
+			padding: 8px;
+			text-align: left;
+			border: 1px solid gray;
+		}
+
+		tr:nth-child(odd) {
+			background-color: #e1dfdd;
+			border: 1px solid gray;
+		}
+
+		h3 {	
+			background-color: #ffbf00;
+			margin-top: 0px;
+			margin-bottom: 50px;
+			padding: 15px;
+		}
